@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Lato:wght@100&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #D9CDF7;
+}
+.content{
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: center;
+  /* align-self: center; */
+  padding-top: 100px;
+  gap: 13px;
+  
+}
+.imagem360{
+  display: flex;
+}
+.button{
+  background-color: #D9CDF7;
+  margin-top: 20px;
+  border-radius: 90px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.info h1{
+  font-family: 'Crimson Pro', serif;
+  font-size: 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.info{
+  color: #271A45;
+  font-family: 'Lato', serif;
+  
+}
+.info h2{
+  opacity: 70%;
+}
+/* .info p{
+  font-family: 'Lato', sans-serif;
+}
+.info h1{
+  font-family: 'Crimson Pro', serif;
+} */
+
